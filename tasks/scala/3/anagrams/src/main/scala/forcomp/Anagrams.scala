@@ -1,11 +1,9 @@
 package forcomp
 
 import scala.collection.mutable.ListBuffer
-/*
-// for some reason my IntellijIdea says it cannot import this :\
-// I'm despaired
+
 import common._
-*/
+
 object Anagrams {
 
   /** A word is simply a `String`. */

@@ -1,3 +1,5 @@
+import scala.io.Source
+
 package object forcomp {
   val dictionaryPath = List("forcomp", "linuxwords.txt")
 
@@ -20,5 +22,4 @@ package object forcomp {
       wordstream.close()
     }
   }
-
 }
